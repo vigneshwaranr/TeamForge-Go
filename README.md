@@ -1,4 +1,11 @@
-TeamForge-Go
-============
+# TeamForge-Go
 
-A browser extension that enhances CollabNet TeamForge's Jump to ID feature
+#### Description: A browser extension that enhances CollabNet TeamForge's Jump to ID feature
+
+---
+
+**How to install:**
+
+Chrome: Not yet published!
+
+---
