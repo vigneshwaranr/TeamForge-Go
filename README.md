@@ -6,7 +6,7 @@
 
 **How to install:**
 
-Chrome: Not yet published!
+Chrome webstore: https://chrome.google.com/webstore/detail/teamforge-go/lienlppoakoenhibfonilfpeahdcakee
 
 ---
 
