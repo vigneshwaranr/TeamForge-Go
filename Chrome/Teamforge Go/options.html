@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html><head>
+  <title>Teamforge Go Extension Options</title>
+  <style>
+            body {
+                font-family: Helvetica;
+				margin-top:20px;
+				font-size: 12px;
+            }
+            h1 { 
+                font-size: 24px;
+                margin: 0 0 12px 0;
+            }
+            h2 {
+                font-size: 18px;
+            }
+
+			.section-header {  background:#b5c7ed;  border-top:1px solid #ebeff9;  font-size:99%;  padding:3px 0 2px 5px;  font-weight:bold;  margin-bottom:1em;  margin-top:2em;}
+			
+			
+			
+			a {
+			  margin-left: 5px;
+			}
+			#addsite,#addpattern {
+			  margin-top: 5px;
+			  display: block;
+			}
+			a:link { color:blue; }
+
+            a:visited { color:blue; }
+            
+            .padleft { padding-left: 18px; }
+        </style>
+<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="options.js"></script>
+
+
+</head><body>
+<h1><img class="logo" src="icons/icon-32.png" alt="logo" style="margin-right: 5px;" align="absbottom">Teamforge Go Extension Options</h1>
+
+<div class="section-header">Sites</div>
+<div class="padleft">
+    <p>Enter the alias/name and the domain here.. (domain should be like 'trialzone.collab.net' without protocol). If you want automatic login support, use Lastpass extension.</p>
+    <div id="sites">
+        
+    </div>
+    <a id="addsite" href="#">Add another</a>
+</div>
+
+<div class="section-header">Additional Patterns</div>
+<div class="padleft">
+    <p>Enter "case-sensitive" regex patterns of any additional object ids here.. (pattern should be like 'REV_\d+'. You can try debuggex.com or regexr.com to verify your regex) </p>
+    <div id="patterns">
+        
+    </div>
+    <a id="addpattern" href="#">Add another</a>
+</div>
+
+
+
+<!--<div class="section-header">Contact</div>
+
+<p>Reach me at <a href="http://vigneshwaran.in">http://vigneshwaran.in</a></p>-->
+
+
+<p style="margin-top: 20px;"> <input id="savebutton" value="Save and close" type="button"> </p>
+</body></html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teamforge Go</title>
+    <style type="text/css">
+		body {
+  			min-width:275px;
+ 			overflow-x:hidden;
+		} 
+        #sitespanel {
+            margin:2px;
+            padding:2px;
+            text-align:center;
+            background:#fefefe;
+            border:solid 1px #c3c3c3;
+            display:none;
+        }
+        #sitespanel div {
+            width: 250px;
+            font-size: 14px;
+            text-align: justify;
+        }
+        p.sitesflip {
+            margin:2px;
+            padding:2px;
+            text-align:center;
+            background:#eeeeee;
+            border:solid 1px #c3c3c3;
+            font-size: 13px;
+            color:#333333;
+        }
+        #query-field {
+            width: 100%;
+        }
+        #button {
+            margin: 0px 0px 0px 5px;
+        }
+        #addlink {
+            color: blue;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            margin: 2px 0px 1px 0px;
+        }
+        span {
+            color: grey;
+        }
+</style>
+<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+  <body>
+    <div id="extra-padding">
+      <form id="lookup-form">
+        <table>
+          <tr>
+            <td width="100%">
+              <input type="text" id="query-field">
+            </td>
+            <td width="auto">
+              <input type="submit" id="button" value="Go">
+            </td>
+          </td></tr>
+        </table>
+      </form>
+	  <center><p class="sitesflip"><b>Options</b></p></center>
+          
+      <div id="sitespanel">
+       <div>Select your preferred site. (Change will be saved)</div>
+       <div style="height: 2px;"></div>
+       <a href="#" id="addlink">Add Site</a>
+      </div>
+      <div><hr /></div>
+      <div class="footer" style="font-size:11px">
+        Teamforge Go extension
+      </div>
+    </div>
+  </body>
+</html>
