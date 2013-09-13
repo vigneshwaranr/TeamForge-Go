@@ -12,7 +12,7 @@ Chrome webstore: https://chrome.google.com/webstore/detail/teamforge-go/lienlppo
 
 **How to use:**
 
-* Remove the default sites and add your own domain address of your TeamForge instance in the options page.
+* Remove the default sites and add your own domain address(es) of your TeamForge instance in the options page.
 ![options screenshot](https://raw.github.com/vigneshwaranr/TeamForge-Go/master/Chrome/Screenshots/options.png "Screenshot that shows the options page")
 
 
